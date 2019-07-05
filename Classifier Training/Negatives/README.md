@@ -1,0 +1,1 @@
+The purpose of the neg_process2.py program is to process an entire folder of Stellarium screenshots into the negative images used for classifier training. It is run on Windows 10. The program reads them, crops them, greyscales them, shrinks them to 100x100 pixels, and then saves them as a new file.
