@@ -1,0 +1,61 @@
+// Name: Thesis test script 4
+// License: MIT License
+// Author: raspberrystars (Github user)
+// Last Modified: 06/07/19 
+// Description: Fourth experiment - modified no.3 to be suitable for neg image dataset collection.
+
+
+//Initial messages to user
+LabelMgr.labelScreen("Now running 'thesis_4'.", 200, 200, true, 20, "#ff0000");
+core.wait(2);
+LabelMgr.deleteAllLabels();
+LabelMgr.labelScreen("Setting up test environment.", 200, 200, true, 20, "#ff0000");
+
+
+//Stellarium environment setup
+core.setTimeRate(0);
+LandscapeMgr.setFlagLandscape(false);
+LandscapeMgr.setFlagAtmosphere(false);
+LandscapeMgr.setFlagFog(false);
+LandscapeMgr.setFlagCardinalsPoints(false);
+SolarSystem.setFlagLabels(false);
+Satellites.setFlagHints(false);
+Satellites.setFlagLabels(false);
+MeteorShowers.setEnableMarker(false);
+MeteorShowers.setEnableLabels(false);
+GridLinesMgr.setFlagGridlines(false);
+StarMgr.setLabelsAmount(0);
+StelMovementMgr.toggleMountMode();
+core.setGuiVisible(false);
+core.setProjectionMode("ProjectionPerspective");
+StelMovementMgr.zoomTo(48.55, 1);
+core.wait(3);
+
+
+//Movement code
+LabelMgr.deleteAllLabels();
+LabelMgr.labelScreen("Capturing sample images.", 200, 200, true, 20, "#ff0000");
+core.wait(2);
+LabelMgr.deleteAllLabels();
+core.wait(2);
+
+var j=0;
+while (j<360) {
+for (i=0; i<27; i++)
+{
+core.moveToRaDecJ2000(j, i*2.5+25, 0);
+core.screenshot("check",false,"E:/Documents/Strathclyde/Thesis/Stellarium Screenshots",false,"png");
+core.wait(0.5);
+}
+j=j+5;
+i=0;
+core.wait(1);
+}
+core.wait(2);
+
+//Test complete message
+LabelMgr.deleteAllLabels();
+LabelMgr.labelScreen("Test complete, you may exit Stellarium.", 200, 200, true, 20, "#ff0000");
+core.wait(2);
+LabelMgr.deleteAllLabels();
+LabelMgr.labelScreen(j, 200, 200, true, 20, "#ff0000");
