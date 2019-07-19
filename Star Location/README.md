@@ -1,1 +1,0 @@
-The program in this folder was created to identify the location of the brightest stars in a given starfield image. This was useful in the early part of this project. The code from this program was amalgamated into later programs that were used to place the fiducial markers onto the brightest stars. Tested on Windows 10 and RPi 3B+.
