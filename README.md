@@ -1,6 +1,6 @@
-## CV-Star-Sensor
+# CV-Star-Sensor
 
-# MSc Project repo for computer vision star identification and satellite orientation project (CURRENTLY ACTIVE)
+## MSc Project repo for computer vision star identification and satellite orientation project (CURRENTLY ACTIVE)
 
 This repository shall be used to store all versions of the code generated as part of this project.
 
