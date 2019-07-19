@@ -13,3 +13,5 @@
 **neg_southern.zip** - contains the neg images of the southern celestial hemisphere and bg.txt file generated using neg_process4.py from images captured in Stellarium using one of the Stellarium scripts provided in this repository. These negative images are largely unaltered.
 
 **neg_southern2.zip** - contains the neg images of the southern celestial hemisphere and bg.txt file generated using neg_process5.py from images captured in Stellarium using one of the Stellarium scripts provided in this repository. Extra processes were applied to the star images to produce these negatives including removing small stars and enlarging the prominent stars.
+
+**neg_sports.zip** - contains almost 2000 images of general sports scenes taken originally from the ImageNet database. ImageNet was undermaintenance at the time of writing this, so this set of images was downloaded from this [OpenCV Tutorial](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/).
