@@ -1,3 +1,3 @@
 The purpose of the neg_process2.py program is to process an entire folder of Stellarium screenshots into the negative images used for classifier training. It is run on Windows 10. The program reads them, crops them, greyscales them, shrinks them to 100x100 pixels, and then saves them as a new file.
 
-descriptor_creation2 is used to generate the bg.txt file that is required for the cascade training. 
+descriptor_creation2 is used to generate the bg.txt file that is required for the cascade training. Note that in order for this bg.txt file to work if it used on Linux but created on Windows, then the following command must be used to convert it to solely ASCII characters (an error arises due to line spacing otherwise). Running 'dos2unix bg.txt' will solve this problemt, but you will first need to install the dos2unix library.
