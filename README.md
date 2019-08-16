@@ -12,4 +12,5 @@ This repository shall be used to store all versions of the code generated as par
 - Python programs used to test the trained cascades against a supplied starfield image.
 
 **For the future:**
+
 As of 16/08/19, I have finished working on this project as part of my University course. I hope to be able to spend further time on it as a hobby in order to keep developing the system, there are lots of improvements and additions I would like to have time to make. I hope that this repository may be of use to someone, and if you have questions please contact me. The best source of reference here is my MSc Thesis itself, which can be found above.
