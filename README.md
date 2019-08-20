@@ -9,6 +9,7 @@ Please see a short explanatory video on [YouTube](https://www.youtube.com/watch?
 - Zipped folders containing negative image datasets, as well as bg.txt files, and python programs used to create these.
 - Python programs used to create the positive images used for cascade training. 
 - Image files of the fiducial markers applied to starfields, to identify the patterns of bright stars that the machine learning relies upon for the identification.
+- A sample set of 31 trained cascades for the northern celestial hemisphere.
 - Python programs used to test the trained cascades against a supplied starfield image.
 
 **For the future:**
