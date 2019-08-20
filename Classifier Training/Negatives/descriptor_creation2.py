@@ -1,10 +1,14 @@
+#Imports required libraries.
 import cv2
 import os
 
-if not os.path.exists('neg_southern'):
-    os.makedirs('neg_southern')
+#Specifies location of neg folder.
+if not os.path.exists('neg_southern2'):
+    os.makedirs('neg_southern2')
 
-for file in ['neg_southern']:
+#Loops over each negative file in that folder.
+#Creates .txt file with names of these files.
+for file in ['neg_southern2']:
     for img in os.listdir(file):
         line = img+'\n'
         with open('bg.txt','a') as f:

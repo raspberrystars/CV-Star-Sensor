@@ -17,3 +17,5 @@
 **neg_sports.zip** - contains almost 2000 images of general sports scenes taken originally from the ImageNet database. ImageNet was undermaintenance at the time of writing this, so this set of images was downloaded from this [OpenCV Tutorial](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/).
 
 **negatives_plus.zip** - contains a much larger dataset of 5010 images, merging neg_sports with additional images collected by raspberry stars. Also includes bg.txt file needed.
+
+**negatives_huge.zip** - the largest dataset I experimented with, contains 8898 images. Merges negatives_plus with some additional images from Stellarium with fiducial markers. Also includes required bg.txt file.
