@@ -4,6 +4,8 @@
 
 Please see a short explanatory video on [YouTube](https://www.youtube.com/watch?v=aYilzSxmrGo).
 
+Additionally, this [tutorial](https://pythonprogramming.net/haar-cascade-object-detection-python-opencv-tutorial/) is a really useful beginner's guide to OpenCV classifier training.
+
 **Contents so far:**
 - Stellarium scripts used to capture thousands of images from Stellarium in order to be processed into negative image datasets for machine learning training.
 - Zipped folders containing negative image datasets, as well as bg.txt files, and python programs used to create these.
