@@ -2,7 +2,7 @@
 
 ## MSc Project repo for computer vision star identification and satellite orientation project (CURRENTLY ACTIVE)
 
-This repository shall be used to store all versions of the code generated as part of this project.
+Please see a short explanatory video on [YouTube](https://www.youtube.com/watch?v=aYilzSxmrGo).
 
 **Contents so far:**
 - Stellarium scripts used to capture thousands of images from Stellarium in order to be processed into negative image datasets for machine learning training.
