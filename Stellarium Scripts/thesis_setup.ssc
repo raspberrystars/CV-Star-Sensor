@@ -1,0 +1,34 @@
+// Name: Thesis test script (setup)
+// License: MIT License
+// Author: raspberrystars (Github user)
+// Last Modified: 03/09/19 
+// Description: Simply sets Stellarium up for manual screenshot capture. No automatic panning. 
+
+
+//Initial messages to user
+LabelMgr.labelScreen("Now running 'thesis_setup'.", 200, 200, true, 20, "#ff0000");
+core.wait(2);
+LabelMgr.deleteAllLabels();
+LabelMgr.labelScreen("Setting up test environment.", 200, 200, true, 20, "#ff0000");
+
+
+//Stellarium environment setup
+core.setTimeRate(0);
+LandscapeMgr.setFlagLandscape(false);
+LandscapeMgr.setFlagAtmosphere(false);
+LandscapeMgr.setFlagFog(false);
+LandscapeMgr.setFlagCardinalsPoints(false);
+SolarSystem.setFlagLabels(false);
+Satellites.setFlagHints(false);
+Satellites.setFlagLabels(false);
+MeteorShowers.setEnableMarker(false);
+MeteorShowers.setEnableLabels(false);
+//GridLinesMgr.setFlagGridlines(false);
+StarMgr.setLabelsAmount(0);
+//StelMovementMgr.toggleMountMode();
+//core.setGuiVisible(false);
+core.setProjectionMode("ProjectionPerspective");
+StelMovementMgr.zoomTo(48.55, 1);
+core.wait(3);
+
+LabelMgr.deleteAllLabels();
