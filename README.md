@@ -1,5 +1,7 @@
 # CV-Star-Sensor
 
+# Welcome to you if you're coming from Instructables!
+
 ## MSc Project repo for computer vision star identification and satellite orientation project (CURRENTLY ACTIVE)
 
 Please see a short explanatory video on [YouTube](https://www.youtube.com/watch?v=aYilzSxmrGo).
@@ -16,4 +18,6 @@ Additionally, this [tutorial](https://pythonprogramming.net/haar-cascade-object-
 
 **What next?:**
 
-As of 19/08/19, I have finished working on this project as part of my University course. I hope to be able to spend further time on it as a hobby in order to keep developing the system, there are lots of improvements and additions I would like to have time to make. I hope that this repository may be of use to someone, and if you have questions please contact me, I will continue to monitor and work on this project. The best source of reference here is my MSc Thesis itself, which can be found above.
+19/08/19, I have finished working on this project as part of my University course. I hope to be able to spend further time on it as a hobby in order to keep developing the system, there are lots of improvements and additions I would like to have time to make. I hope that this repository may be of use to someone, and if you have questions please contact me, I will continue to monitor and work on this project. The best source of reference here is my MSc Thesis itself, which can be found above.
+
+25/05/20, I've been putting more thought into the potential improvement and applications of this project. I hope that the Instructables writeup will help other people find this repo, and hopefully we can work together to develop this further!
